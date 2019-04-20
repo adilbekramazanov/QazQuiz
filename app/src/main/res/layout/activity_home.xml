@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:paddingVertical="100dp"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/neucha"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="QazQuiz"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@mipmap/logotest"-->
+            <!--android:background="#0FFF"-->
+            <!--/>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <Button
+                android:fontFamily="@font/neucha"
+                android:id="@+id/start_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_white_border"
+                android:gravity="center"
+                android:onClick="startQuiz"
+                android:text="Выкатили"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/neucha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:textAlignment="center"
+                android:text="Пройдите тесты \n и узнайте чуть больше о себе!"
+                android:textColor="#9FFF"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

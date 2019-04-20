@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFF">
+    <ImageView
+
+        android:id="@+id/splash_image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@mipmap/logo_test_png"
+        android:layout_gravity="center"
+        android:maxHeight="100dp"></ImageView>
+
+    <TextView
+
+        android:fontFamily="@font/neucha"
+        android:layout_gravity="bottom"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed by Adilbek Ramazanov"
+        android:gravity="bottom"
+        android:textColor="#999"
+        android:textSize="12dp"
+        android:layout_marginBottom="12dp"
+        />
+
+</FrameLayout>

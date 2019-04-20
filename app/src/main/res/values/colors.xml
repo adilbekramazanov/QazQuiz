@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <!--<color name="colorGradientStart">#3D7EAA</color>-->
+    <!--<color name="colorGradientEnd">#FFE47A</color>-->
+
+    <!--<color name="colorGradient2Start">#2980b9</color>-->
+    <!--<color name="colorGradient2Center">#6dd5fa</color>-->
+    <!--<color name="colorGradient2End">#FFFFFF</color>-->
+
+    <!--<color name="colorGradient3Start">#108dc7</color>-->
+    <!--<color name="colorGradient3End">#ef8e38</color>-->
+
+
+    <!--<color name="TransparentColor">#00ffffff</color>-->
+
+<!--</resources>-->
+    <!--#3a1c71 → #d76d77 → #ffaf7b-->
+
+<resources>
+    <color name="colorPrimary">#F07130</color>
+    <color name="colorPrimaryDark">#E7425A</color>
+    <color name="colorAccent">#892885</color>
+
+    <color name="colorGradientStart">#F07130</color>
+    <color name="colorGradientCenter">#E7425A</color>
+
+    <color name="colorGradientEnd">#892885</color>
+
+    <color name="colorGradient2Start">#3a1c71</color>
+    <color name="colorGradient2Center">#d76d77</color>
+    <color name="colorGradient2End">#ffaf7b</color>
+
+    <color name="colorGradient3Start">#FD6585</color>
+    <color name="colorGradient3End">#0D25B9</color>
+
+
+    <color name="TransparentColor">#00ffffff</color>
+
+</resources>

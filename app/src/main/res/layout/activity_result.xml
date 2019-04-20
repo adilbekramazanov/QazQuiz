@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation">
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/result_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".ResultActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/result_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginHorizontal="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/neucha"
+                android:maxHeight="100dp"
+                android:minHeight="70dp"
+                android:text="Вы Агашка"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="28dp" />
+            <ImageView
+
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/borscht" />
+
+
+
+            <TextView
+
+                android:fontFamily="@font/neucha"
+                android:id="@+id/result_description_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum eu ad tellus dictum sagittis aenean porta volutpat, fusce arcu netus lorem convallis fusce praesent intefdultrices duis nti torquent curabierisque quam."
+                android:textAlignment="center"
+                android:textColor="#9FFF"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="15dp"
+                />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_white_border"
+            android:onClick="startAgain"
+            android:text="Выкатить в меню"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/neucha"/>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <ImageView
+        android:id="@+id/koktobeLoading"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/koktobe"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        />
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/neucha"
+        android:maxHeight="100dp"
+        android:minHeight="70dp"
+        android:layout_marginHorizontal="45dp"
+        android:text="Думаем и любуемся видом с Көк Төбе ..."
+        android:textColor="#FFF"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    </LinearLayout>
+</FrameLayout>
