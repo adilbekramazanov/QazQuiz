@@ -985,7 +985,7 @@ public class PersonalityQuizActivity extends AppCompatActivity {
 
 
     public int random(int minNumber, int maxNumber){
-        int randomNumber = (int)(Math.random() * maxNumber + minNumber);;
+        int randomNumber = (int)(Math.random() * maxNumber + minNumber);
         return randomNumber;
     }
 
