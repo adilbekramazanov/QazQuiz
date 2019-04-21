@@ -22,7 +22,6 @@
         <activity android:name=".ResultActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".ChooseTestActivity" />
-        <activity android:name=".CelebrityQuizActivity" />
         <activity android:name=".LoadingActivity"></activity>
     </application>
 

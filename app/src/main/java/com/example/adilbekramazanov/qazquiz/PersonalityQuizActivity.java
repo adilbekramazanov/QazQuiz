@@ -23,7 +23,6 @@ public class PersonalityQuizActivity extends AppCompatActivity {
     Animation animScale;
     Animation animFadeout;
     TextView question;
-    int max;
     LinearLayout myQuizLinearLayout;
     AnimationDrawable animationDrawable;
     TextView countTextView;
@@ -33,8 +32,6 @@ public class PersonalityQuizActivity extends AppCompatActivity {
     Button answerButton3;
     Button answerButton4;
 
-    int numberOfresults = 10;
-    int numberOfQuestionsInPool = 12;
     int countQuestion;
 
     int personality1Count;
@@ -47,10 +44,6 @@ public class PersonalityQuizActivity extends AppCompatActivity {
     int personality8Count;
     int personality9Count;
     int personality10Count;
-
-
-
-    String familyMember1 = "Ага";
 
     String personality1Name = "Вы Баке";
     String personality2Name = "Вы Олимпер";
@@ -161,17 +154,6 @@ public class PersonalityQuizActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
-
-        //// set text animation
-        TextSwitcher textSwitcher = new TextSwitcher(this);
-
-
-
-
-        //// set text animation
-
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -723,7 +705,7 @@ public class PersonalityQuizActivity extends AppCompatActivity {
         String resultPersonalityDescription = personality2Description;
         for (int i = 1; i < personalityCounts.size(); i++){
             if (personalityCounts.get(i) > personalityCounts.get(i-1)){
-                max = personalityCounts.get(i);
+
                 resultPersonality = personalityNames.get(i);
                 resultPersonalityDescription = personalityDescriptions.get(i);
             }
@@ -956,20 +938,21 @@ public class PersonalityQuizActivity extends AppCompatActivity {
     }
 
     public void back(View view){
+
         Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+
         startActivity(intent);
-
     }
-
-
 
     public void nextQuestion(){
 
-
         try {
             if (countQuestion < 10) {
+
                 int x = random(0, 4);
+
                 countTextView.setText(countQuestion + 1 + "/10");
+
                 question.setText(questionCategory.get(countQuestion).get(x).get(0));
                 answerButton1.setText(questionCategory.get(countQuestion).get(x).get(1));
                 answerButton2.setText(questionCategory.get(countQuestion).get(x).get(2));
@@ -985,7 +968,9 @@ public class PersonalityQuizActivity extends AppCompatActivity {
 
 
     public int random(int minNumber, int maxNumber){
+
         int randomNumber = (int)(Math.random() * maxNumber + minNumber);
+
         return randomNumber;
     }
 

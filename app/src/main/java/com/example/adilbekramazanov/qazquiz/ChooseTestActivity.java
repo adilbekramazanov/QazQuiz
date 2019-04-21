@@ -47,22 +47,6 @@ public class ChooseTestActivity extends AppCompatActivity {
 
     }
 
-    public void startCelebrityTest(View view){
-
-        view.startAnimation(animScale);
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-
-                Intent intent = new Intent(ChooseTestActivity.this, CelebrityQuizActivity.class);
-
-                startActivity(intent);
-
-            }
-        }, 200);
-    }
-
     public void startFoodQuiz(View view){
 
         view.startAnimation(animScale);

@@ -41,15 +41,6 @@
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:textSize="28dp" />
-            <ImageView
-
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/borscht" />
-
-
 
             <TextView
 

@@ -51,41 +51,4 @@
         tools:ignore="OnClick"
         android:background="#4000"/>
 
-    <TextView
-        android:fontFamily="@font/neucha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Тест 3 в разработке..."
-        android:layout_marginTop="30dp"
-        android:textAlignment="center"
-        android:textColor="#8000"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:height="100dp"
-        android:background="#7000"
-
-        android:fontFamily="@font/neucha"
-
-
-        android:text="Какой город Казахстана создан для вас?"
-        android:textColor="#8000"
-        tools:ignore="OnClick" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </LinearLayout>

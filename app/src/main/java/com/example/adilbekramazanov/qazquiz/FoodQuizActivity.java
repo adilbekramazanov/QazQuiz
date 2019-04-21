@@ -742,43 +742,43 @@ public class FoodQuizActivity extends AppCompatActivity {
                 switch (countQuestion){
                     case 1:
 
-                        personality1Count++; //баке
+                        personality1Count++; //бешпармак
                         break;
                     case 2:
 
-                        personality2Count++; //олимпер
+                        personality2Count++; //куырдак
                         break;
                     case 3:
 
-                        personality3Count++; //мажор
+                        personality3Count++; //баурсаки
                         break;
                     case 4:
 
-                        personality4Count++; //доттер
+                        personality4Count++; //лагман
                         break;
                     case 5:
 
-                        personality5Count++; //тайсн
+                        personality5Count++; //сумалак
                         break;
                     case 6:
 
-                        personality6Count++; //студент
+                        personality6Count++; //кеспе
                         break;
                     case 7:
 
-                        personality7Count++; //братишка
+                        personality7Count++; //коже
                         break;
                     case 8:
 
-                        personality8Count++; //бизнес тренер
+                        personality8Count++; //манты
                         break;
                     case 9:
 
-                        personality9Count++; //татешка
+                        personality9Count++; //айран
                         break;
                     case 10:
 
-                        personality10Count++; //fashion model
+                        personality10Count++; //борщ
                         break;
                 }
                 nextQuestion();
@@ -796,43 +796,43 @@ public class FoodQuizActivity extends AppCompatActivity {
                 switch (countQuestion){
                     case 1:
 
-                        personality10Count++; //insta blogger
+                        personality10Count++; //борщ
                         break;
                     case 2:
 
-                        personality1Count++; //баке
+                        personality1Count++; //бешпармак
                         break;
                     case 3:
 
-                        personality2Count++; //олимпер
+                        personality2Count++; //куырдак
                         break;
                     case 4:
 
-                        personality3Count++; //мажор
+                        personality3Count++; //баурсаки
                         break;
                     case 5:
 
-                        personality4Count++; //доттер
+                        personality4Count++; //лагман
                         break;
                     case 6:
 
-                        personality5Count++; //тайсн
+                        personality5Count++; //сумалак
                         break;
                     case 7:
 
-                        personality6Count++; //студент
+                        personality6Count++; //кеспе
                         break;
                     case 8:
 
-                        personality7Count++; //братишка
+                        personality7Count++; //коже
                         break;
                     case 9:
 
-                        personality8Count++; //бизнесренер
+                        personality8Count++; //манты
                         break;
                     case 10:
 
-                        personality9Count++; //татешка
+                        personality9Count++; //айран
                         break;
                 }
                 nextQuestion();
@@ -851,42 +851,42 @@ public class FoodQuizActivity extends AppCompatActivity {
                 switch (countQuestion){
                     case 1:
 
-                        personality9Count++; //татешка
+                        personality9Count++; //айран
                         break;
                     case 2:
 
-                        personality10Count++; //fashion model
+                        personality10Count++; ///борщ
                         break;
                     case 3:
 
-                        personality1Count++; //баке
+                        personality1Count++; //бешпармак
                         break;
                     case 4:
 
-                        personality2Count++; //олимпер
+                        personality2Count++; //куырдак
                         break;
                     case 5:
 
-                        personality3Count++; //мажор
+                        personality3Count++; //баурсаки
                         break;
                     case 6:
 
-                        personality4Count++; //доттер
+                        personality4Count++; //лагман
                         break;
                     case 7:
 
-                        personality5Count++; //тайсн
+                        personality5Count++; //сумалак
                         break;
                     case 8:
 
-                        personality6Count++; //студент
+                        personality6Count++; //кеспе
                         break;
                     case 9:
-                        personality7Count++; //братишка
+                        personality7Count++; //коже
                         break;
                     case 10:
 
-                        personality8Count++; //бизнесренер
+                        personality8Count++; //манты
                         break;
                 }
                 nextQuestion();
@@ -906,43 +906,43 @@ public class FoodQuizActivity extends AppCompatActivity {
                 switch (countQuestion){
                     case 1:
 
-                        personality8Count++; //бизнесренер
+                        personality8Count++; //манты
                         break;
                     case 2:
 
-                        personality9Count++; //татешка
+                        personality9Count++; //айран
                         break;
                     case 3:
 
-                        personality10Count++; //insta blogger
+                        personality10Count++; //борщ
                         break;
                     case 4:
 
-                        personality1Count++; //баке
+                        personality1Count++; //бешпармак
                         break;
                     case 5:
 
-                        personality2Count++; //олимпер
+                        personality2Count++; //куырдак
                         break;
                     case 6:
 
-                        personality3Count++; //мажор
+                        personality3Count++; //баурсаки
                         break;
                     case 7:
 
-                        personality4Count++; //доттер
+                        personality4Count++; //лагман
                         break;
                     case 8:
 
-                        personality5Count++; //тайсн
+                        personality5Count++; //сумалак
                         break;
                     case 9:
 
-                        personality6Count++; //студент
+                        personality6Count++; //кеспе
                         break;
                     case 10:
 
-                        personality7Count++; //братишка
+                        personality7Count++; //коже
                         break;
                 }
                 nextQuestion();

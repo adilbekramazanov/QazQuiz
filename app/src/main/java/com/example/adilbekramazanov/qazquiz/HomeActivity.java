@@ -18,9 +18,6 @@ import android.widget.LinearLayout;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.airbnb.lottie.LottieAnimationView;
-
-
 public class HomeActivity extends AppCompatActivity {
 
     Button startButton;
@@ -34,10 +31,10 @@ public class HomeActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         myHomeLinearLayout = findViewById(R.id.home_linear_layout);
+
         animationDrawable = (AnimationDrawable) myHomeLinearLayout.getBackground();
         animationDrawable.setEnterFadeDuration(10);
         animationDrawable.setExitFadeDuration(4500);

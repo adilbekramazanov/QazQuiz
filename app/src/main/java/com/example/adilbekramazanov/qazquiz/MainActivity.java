@@ -1,20 +1,13 @@
 package com.example.adilbekramazanov.qazquiz;
 
-import android.content.ComponentName;
-import android.content.Context;
+
 import android.content.Intent;
-import android.content.ServiceConnection;
 import android.os.Handler;
-import android.os.IBinder;
-import android.os.PowerManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.ImageView;
-
 public class MainActivity extends AppCompatActivity {
 
     ImageView splashImageLogo;
